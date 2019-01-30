@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>HackNTU</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<body>
+  <!-- particles.js container -->
+  <div id="particles-js"></div>
+  <!-- stats - count particles -->
+  <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+  <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <!-- stats.js lib -->
+  <script src="script.js"></script>
+
+  <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img src="img/logo-light-svg.svg" class="img-fluid"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">FAQs</a></li>
+        <li><a href="#schedule">Schedule</a></li>
+        <li><a href="#prices">Prizes</a></li>
+        <li><a href="#sponsors">Sponsors</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  <!-- Splashscreen-->
+  <div class="jumbotron jumbotron-fluid text-center splashscreen">
+    <h1><img src="img/logo-light-svg.svg"></h1><br>
+    <p class="address-head">23-24 March 2019<br>Nanyang Auditorium<br>50 Nanyang Ave, Singapore 639798</p><br><br>
+    <button type="button" class="btn btn-dark">Register Now</button>
+  </div>
+  <div class="container-fluid text-center faqs">
+    <h1 style="color: #0F2027; font-family: 'Montserrat', sans-serif;">Frequently Asked Questions</h1><br><br>
+    <div class="row">
+      <div class="col-sm-4">
+        <i class="fas fa-terminal fa-4x heart"></i>
+        <h4>What is HackNTU?</h4><br>
+        <p>
+          <ul>
+            <li class="faq">HackNTU is NTU's premier hackathon, jointly organised by NTU Student Union, IEEE NTU Student Branch and SearchElect</li>
+            <li class="faq">This is the inaural grand iteration of HackNTU</li>
+          </ul>
+        </p>
+      </div>
+      <div class="col-sm-4">
+        <i class="fas fa-user fa-4x"></i>
+        <h4>Who can participate?</h4><br>
+        <p>
+          <ul>
+            <li class="faq">Students of all levels in any educational institution in Singapore & South-East Asia can sign up for HackNTU.</li>
+            <li class="faq">If you are passionate about learning new technologies, building awesome projects and meeting like-minded hackers, we want you here!</li>
+          </ul>
+        </p>
+      </div>
+      <div class="col-sm-4">
+        <i class="fa fa-money-bill fa-4x"></i>
+        <h4>Does this cost money?</h4><br>
+        <p>
+          <ul>
+            <li class="faq">Nope! Admission is free. Just register online and show up at the venue on XXth XXXXXX!</li>
+            <li class="faq">We'll provide food, caffeine, Wi-Fi and a place for you to hack for the entire duration of the event.</li>
+          </ul>
+        </p>
+      </div>
+    </div><br><br>
+    <div class="row">
+      <div class="col-sm-4">
+        <i class="fas fa-laptop fa-4x"></i>
+        <h4>What is a Hackathon?</h4><br>
+        <p>
+          <ul>
+            <li class="faq">A hackathon is an event where newbies and seasoned veterans alike spend the weekend building meaningful and/or crazy projects.</li>
+            <li class="faq">The term "hack" is used to describe how multiple technologies can be used together in a new & innovative way. Sleeping is optional, but trying to make awesome things is not.</li>
+          </ul>
+        </p>
+      </div>
+      <div class="col-sm-4">
+        <i class="fas fa-code-branch fa-4x"></i>
+        <h4>Don't know how to code?</h4><br>
+        <p>
+          <ul>
+            <li class="faq">No worries! Hackathons are the perfect environment to learn and apply something new in a short period of time!</li>
+            <li class="faq">You will be surrounded by hundreds of passionate people who can help you build something you can be proud of by the end of the weekend. Graphic Designers and Hardware hacks are welcome too!</li>
+          </ul>
+        </p>
+      </div>
+      <div class="col-sm-4">
+        <i class="fas fa-building fa-4x"></i>
+        <h4>What do I build?</h4><br>
+        <p>
+          <ul>
+            <li class="faq">Build something new and crazy that you are passionate about; iNTUition has no theme!</li>
+            <li class="faq">Note that you cannot recycle old projects or start developing your hack beforehand, however, you may use parts of projects you've built before.</li>
+          </ul>
+        </p>
+      </div>
+    </div><br><br>
+    <div class="row">
+      <div class="col-sm-4">
+        <i class="fas fa-users fa-4x"></i>
+        <h4>How do teams work?</h4><br>
+        <p>
+          <ul>
+            <li class="faq">A team can have between 2 and 4 members. You can sign up as a team or start/join one on the spot. Note that at least one team member must be present throughout the competition.</li>
+            <li class="faq">Flying solo is also an option, although hackathons are more fun when you work together!</li>
+          </ul>
+        </p>
+      </div>
+      <div class="col-sm-4">
+        <i class="fas fa-gavel fa-4x"></i>
+        <h4>How does judging work?</h4><br>
+        <p>
+          <ul>
+            <li class="faq">Hacks will be ranked on technical difficulty, creativity, polish & general impressiveness.</li>
+            <li class="faq">After the 24 hour development period, a panel of judges will choose the teams through Devpost submissions to present their hacks to everyone.</li>
+          </ul>
+        </p>
+      </div>
+      <div class="col-sm-4">
+        <i class="fas fa-suitcase fa-4x"></i>
+        <h4>What should I bring?</h4><br>
+        <p>
+          <ul>
+            <li class="faq">Bring your Matriculation Card/Student ID for admission and your laptop/hardware for hacking. We’ll provide snacks and meals throughout the event.</li>
+            <li class="faq">We also recommend bringing the following items- jacket, pillow, sleeping bag, toothbrush & deodorant.</li>
+          </ul>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="container container-fluid text-center schedule">
+    <h1 style="color: #0F2027; font-family: 'Montserrat', sans-serif;">Event Schedule</h1><br><br>
+      <div class="row">
+        <div class="column col-sm-6">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">Day 1</th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>12:00</td>
+                <td>12:30</td>
+                <td>Registration</td>
+              </tr>
+              <tr>
+                <td>12:30</td>
+                <td>01:00</td>
+                <td>Opening Keynote</td>
+              </tr>
+              <tr>
+                <td>01:00</td>
+                <td></td>
+                <td>Hacking Begins!</td>
+              </tr>
+              <tr>
+                <td>18:00</td>
+                <td>19:00</td>
+                <td>Dinner</td>
+              </tr>
+              <tr>
+                <td>23:00</td>
+                <td>24:00</td>
+                <td>Supper</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="column col-sm-6">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">Day 2</th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>06:00</td>
+                <td>07:00</td>
+                <td>Breakfast</td>
+              </tr>
+              <tr>
+                <td>13:00</td>
+                <td></td>
+                <td>Hacking Ends!</td>
+              </tr>
+              <tr>
+                <td>13:00</td>
+                <td>14:30</td>
+                <td>Lunch + Initial Judging (DevPost)</td>
+              </tr>
+              <tr>
+                <td>14:30</td>
+                <td>16:00</td>
+                <td>Presentations by Selected Teams</td>
+              </tr>
+              <tr>
+                <td>16:00</td>
+                <td>16:30</td>
+                <td>Prize Presentation</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    </div>
+    <footer class="container-fluid text-center foot">
+      <p>Made with <i class="fas fa-heart"></i> by <a href="https://github.com/abhishekbhagwat">Abhishek Bhagwat</a></p>
+    </footer>
+</body>
+</html>
